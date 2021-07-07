@@ -2,52 +2,89 @@
 @tailwind components;
 @tailwind utilities;
 
-.navbar {
-  @apply flex
-  items-center
-  justify-between
-  flex-wrap
-  bg-blue-500
-  p-6;
+@font-face {
+  font-family: "Fira Code";
+  src: url("../font/FiraCode-Regular.ttf");
 }
 
-.navbar-nav {
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
-.nav-brand {
-  @apply flex
-  items-center
-  flex-shrink-0 
-  text-white
-  mr-6;
+body {
+  background: #2b2b2b;
+  font-family: "Fira Code";
 }
 
-.nav-brand-link {
-  @apply font-semibold
-  text-xl 
-  tracking-tight;
+img {
+  @apply w-16 
+    m-auto;
 }
 
-.nav-ul {
-  @apply w-full
-  block
-  flex-grow
-  lg:flex
-  lg:items-center
-  lg:w-auto;
+.container {
+  @apply z-0
+    flex flex-col
+    text-center
+    items-center
+    left-1/2
+    top-1/2
+    absolute
+    transform
+    -translate-x-1/2 
+    -translate-y-1/2;
 }
 
-.nav-li {
-  @apply text-sm
-  lg:flex-grow;
+#topBar {
+  @apply absolute 
+    w-full 
+    py-10
+    shadow-lg z-20;
 }
 
-.nav-link {
-  @apply block
-  mt-4
-  lg:inline-block
-  lg:mt-0
-  text-blue-200
-  hover:text-white
-  mr-4;
+#bottomBar {
+  @apply w-full 
+    py-5 
+    shadow-xl
+    bottom-0 
+    absolute 
+    z-10;
+}
+
+#copyright {
+  @apply text-center 
+    text-black 
+    text-xl;
+}
+
+#brand {
+  @apply text-center 
+    text-black 
+    text-5xl;
+}
+
+#topBar,
+#bottomBar {
+  background: #ffffff;
+}
+
+#clock p {
+  color: #ff9393;
+}
+
+#todoApp p {
+  color: #86beff;
+}
+
+#gradeCalculator p {
+  color: #c082ff;
+}
+
+.item {
+  @apply p-5;
+}
+
+.item p {
+  @apply text-2xl;
 }

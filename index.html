@@ -8,24 +8,34 @@
     <link rel="stylesheet" href="dist/css/styles.css" />
   </head>
   <body>
-    <div class="navbar">
-      <div class="navbar-nav">
-        <span class="nav-brand">
-          <a class="nav-brand-link" href="https://www.cedricao.tk">cedricao</a>
-        </span>
-        <ul class="nav-ul">
-          <li class="nav-li">
-            <a href="https://www.todo.cedricao.tk" class="nav-link">Todo App</a>
-          </li>
-          <li class="nav-li">
-            <a href="https://www.grade-calculator.cedricao.tk" class="nav-link"
-              >Grade Calculator</a
-            >
-          </li>
-          <li class="nav-li">
-            <a href="https://www.clock.cedricao.tk" class="nav-link">Clock</a>
-          </li>
-        </ul>
+    <div id="topBar">
+      <p id="brand">cedricao</p>
+    </div>
+    <div class="container">
+      <div id="todoApp" class="item">
+        <a href="https://www.todo.cedricao.tk">
+          <p>Todo App</p>
+          <img src="dist/img/todo.png" />
+        </a>
+      </div>
+      <div id="gradeCalculator" class="item">
+        <a href="https://www.grade-calculator.cedricao.tk">
+          <p>Grade</p>
+          <p>Calculator</p>
+          <img src="dist/img/grade-calculator.png" />
+        </a>
+      </div>
+      <div id="clock" class="item">
+        <a href="https://www.clock.cedricao.tk">
+          <p>Clock</p>
+          <img src="dist/img/clock.png" />
+        </a>
+      </div>
+    </div>
+    <div id="bottomBar">
+      <div id="copyright">
+        <p class="pb-3">Copyright (c) 2021 cedricao.</p>
+        <p>All Rights Reserved</p>
       </div>
     </div>
   </body>
