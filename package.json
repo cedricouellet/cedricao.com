@@ -1,0 +1,20 @@
+{
+  "name": "cedricao.tk",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedricouellet/cedricao.tk.git"
+  },
+  "keywords": [],
+  "author": "Cedric-Antoine Ouellet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cedricouellet/cedricao.tk/issues"
+  },
+  "homepage": "https://github.com/cedricouellet/cedricao.tk#readme"
+}
