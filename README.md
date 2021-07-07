@@ -9,4 +9,4 @@ My personal website
 
 # Languages
 - Vanilla ES6 JavaScript
-- HTML & CSS
+- HTML & CSS (and maybe SCSS)
