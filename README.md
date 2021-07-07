@@ -8,5 +8,5 @@ My personal website
 - Tailwindcss
 
 # Languages
-- vanilla JavaScript
-- html & css
+- Vanilla ES6 JavaScript
+- HTML & CSS
