@@ -32330,6 +32330,28 @@ img {
   line-height: 2rem;
 }
 
+@media only screen and (max-height: 1000px) {
+  #topBar {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  #bottomBar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  #brand {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  #copyright {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

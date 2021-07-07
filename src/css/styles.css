@@ -88,3 +88,21 @@ img {
 .item p {
   @apply text-2xl;
 }
+
+@media only screen and (max-height: 1000px) {
+  #topBar {
+    @apply py-5;
+  }
+
+  #bottomBar {
+    @apply py-2;
+  }
+
+  #brand {
+    @apply text-2xl;
+  }
+
+  #copyright {
+    @apply text-lg;
+  }
+}
