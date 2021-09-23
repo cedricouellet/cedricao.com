@@ -1,4 +1,4 @@
-# cedricao.tk
+# cedricao.com
 > By Cedric-Antoine Ouellet
 
 My personal website
@@ -8,5 +8,4 @@ My personal website
 - Tailwindcss
 
 # Languages
-- Vanilla ES6 JavaScript
-- HTML & CSS (and maybe SCSS)
+- HTML & CSS
